@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+/* font-family: 'Outfit', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: #e4e0e0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 450px;
+    background-color: #131111;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 80px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 2px #6f6f6f;
+}
+
+.eleven{
+    width: 220px;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+.blue{
+    color: #eac735;
+}
+
+.text{
+    color: #fafafa;
+}
+
+.name{
+    display: flex;
+    margin: 0 10px 0 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.info{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 5px 0 0 15px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 0 15px;
+}
+
+.mid{
+    display: flex;
+    margin: 0 5px 0 0;
+}
+
+.value{
+    margin: 0 0 0 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.time{
+    margin: 0 12px 0 5px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+hr{
+    background-color: #39475a;
+    width: 85%;
+    margin: 15px auto;
+}
+
+.my{
+    width: 25px;
+    border: 2px solid #fff;
+    border-radius:180px;
+}
+
+.low{
+    display: flex;
+    margin: 5px 0 0 15px;  
+    align-items: center;  
+}
+
+.creator{
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 0 0 0 10px;
+}
+
+.my-name{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0 0 0 3px;
+}
